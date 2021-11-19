@@ -327,6 +327,9 @@ header {
   padding-bottom: 60px;
   background-color: #fff;
 }
+.gallery__title {
+  margin-bottom: 50px;
+}
 
 .gallery-item:not(:last-child) {
   margin-bottom: 30px;
