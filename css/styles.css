@@ -31,6 +31,10 @@ a:hover {
   background-color: black;
   transition: all .3s ease-in-out;
 }
+
+.fixed-show .navbar {
+  padding: 0;
+}
 header {
   position: relative;
   padding-top: 20px;
@@ -492,7 +496,9 @@ header {
     width: 100%;
     max-width: 100%;
   }
-
+  .fixed-show .navbar {
+    padding: .5rem 1rem;
+  }
   .header__nav {
     flex-direction: row;
     justify-content: space-between;
