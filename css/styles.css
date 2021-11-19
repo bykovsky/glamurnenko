@@ -507,8 +507,8 @@ header {
 
 @media (max-width: 768px) {
   header {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .neader__nav {
     margin-top: 30px;
@@ -541,5 +541,34 @@ header {
   }
   .rates__container {
     padding-bottom: 20px;
+  }
+  .gallery-item__img {
+    max-width: 75%;
+    margin: 0 auto;
+    display: block;
+  }
+  .gallery-item__desc{
+    text-align: center;
+  }
+  .custom-table th,
+  .custom-table td {
+    padding: 0.5rem;
+  }
+  .custom-table thead th {
+    font-size: 18px;
+  }
+
+  .custom-table  td{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .rates__wrapper {
+    padding: 15px;
+  }
+  .rates__container {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
