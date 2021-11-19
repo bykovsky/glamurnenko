@@ -29,6 +29,7 @@ a:hover {
   right: 0;
   top: 0;
   background-color: black;
+  transition: all .3s ease-in-out;
 }
 header {
   position: relative;
